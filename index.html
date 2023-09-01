@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S4RTHAK Fitness</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      /* CSS Reset */
+
+      body {
+        font-weight: bold;
+        font-family: "Baloo Bhai 2", cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url("img/Sarthak.jpg");
+      }
+
+      .left {
+        color: rgb(255, 255, 255);
+        position: absolute;
+        left: 60px;
+        top: 15px;
+        display: inline-block;
+        /* border: 2px solid rgb(230, 31, 31); */
+      }
+
+      .left img {
+        padding: 2px 62px;
+        width: 81px;
+      }
+
+      .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+      }
+
+      .mid {
+        color: white;
+        margin: 20px auto;
+        display: block;
+        width: 36%;
+        /* border: 2px solid rgb(57, 211, 26); */
+      }
+
+      .right {
+        color: white;
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        /* border: 2px solid rgb(228, 213, 54); */
+      }
+
+      .navbar {
+        display: inline-block;
+      }
+
+      .navbar li {
+        display: inline-block;
+        font-size: 25px;
+      }
+
+      .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+      }
+
+      .navbar li a:hover,
+      .navbar li a.active {
+        color: rgb(134, 124, 124);
+        text-decoration: underline;
+      }
+
+      .btn {
+        font-family: "Baloo Bhai 2", cursive;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 4px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+
+      .btn:hover {
+        background-color: rgb(41, 40, 40);
+      }
+
+      .container 
+      {
+        font-family: "Baloo Bhai 2", cursive;
+        color: white;
+        /* border: 2px solid #ffff; */
+        margin: 152px 51px;
+        padding: 26px 99px;
+        width: 28%;
+        display: block;
+        border-radius: 28px;
+        float: right;
+      }
+
+      .form-group input
+      {
+        font-family: "Baloo Bhai 2", cursive;
+        text-align: center;
+        display: block;
+        width: 448px;
+        padding: 4px;
+        border-radius: 8px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 20px;
+        
+      }
+
+      .container h1
+      {
+        text-align: center;
+      }
+
+      .container button
+      {
+        font-family: "Baloo Bhai 2", cursive;
+        display: block;
+        width: 74%;
+        border-radius: 11px;
+        margin: 2px auto;
+
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <!-- LEFT box for logo! -->
+      <div class="left">
+        <img src="img/Dumbell.png" alt="" />
+        <div>S4RTHAK FITNESS!</div>
+      </div>
+
+      <!-- MID box for Navigation Bar! -->
+      <div class="mid">
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Fitness Calculator</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- RIGHT box for Buttons! -->
+      <div class="right">
+        <button class="btn">Call us now</button
+        ><button class="btn">Email Us</button>
+      </div>
+    </header>
+    <div class="container">
+      <h1>JOIN the best gym of Ludhiana now!</h1>
+      <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Gender">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Address">
+        </div>
+
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your e-mail">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your phone number">
+        </div>
+
+        <button class="btn">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
